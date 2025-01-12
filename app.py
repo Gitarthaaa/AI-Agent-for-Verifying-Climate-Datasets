@@ -358,17 +358,9 @@ elif page == "Climate Data Download":
     st.write("Download climate data using the CDS API")
     
     if not st.session_state.climate_retriever.is_configured:
-        st.error("CDS API is not configured!")
+        st.error("CDS API INTEGRATION IS IN STILL PROGRESS")
         st.markdown("""
-        ### Setup Instructions
-        1. Go to [Climate Data Store](https://cds.climate.copernicus.eu/)
-        2. Create an account or log in
-        3. Go to your profile page
-        4. Copy your API key
-        5. Edit the file `C:/Users/91709/.cdsapirc` `API-KEY-HERE` with your actual API key
-        url: https://cds.climate.copernicus.eu/api/v2
-        key: your-actual-api-key-here
-        ```
+    
         """)
     else:
         # Input form for CDS API parameters
