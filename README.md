@@ -52,29 +52,28 @@ An intuitive, AI-driven tool designed to help validate and verify climate datase
    cd climate-data-validator
    Install Dependencies
 
+2. Install Dependencies
 bash
 Copy code
-pip install -r requirements.txt  
-Run the Application
+pip install -r requirements.txt
 
+4. Run the Application
 bash
 Copy code
-streamlit run app.py  
-Upload and Validate
-
-Drag and drop your climate data file.
-View results in the interactive dashboard.
+streamlit run app.py
+ 
+🔗 Navigation
+Data Upload: Upload your dataset and validate it.
+Climate Data Download: Access curated climate datasets (coming soon).
+Developer Section: Explore configurations and API integration (coming soon).
+Documentation: Understand the features and usage.
 📦 Deliverables
-Validation Tool: For quick and accurate climate data checks.
-Interactive Dashboard: Simplifies anomaly detection and reporting.
-Developer Tools: Documentation and configurations for custom integrations.
-🤔 Why Use Climate Data Validator?
-Streamline data validation for climate research.
-Quickly detect anomalies in large datasets.
-Ensure temporal and structural consistency in your data.
-Get actionable insights with just a few steps.
+Fully functional climate data validator.
+Adjustable anomaly detection sensitivity.
+Interactive visualizations for better insights.
+Scalable and easy-to-use interface.
 📧 Contact
-For queries, suggestions, or collaboration opportunities, contact Gitartha at your-email@example.com.
+For queries or collaboration, contact Gitartha at gitarthatalukdar0@gmail.com.
 
 📜 License
 This project is licensed under the name Gitartha Talukdar!!
