@@ -29,24 +29,7 @@ An AI-powered system designed to validate and verify climate datasets. With buil
 - **Plotly**: Generates beautiful and dynamic visualizations.  
 
 ---
-
-## 🖥️ How to Use  
-
-### 1. Clone the Repository  
-```bash
-git clone https://github.com/your-username/climate-data-validator.git  
-cd climate-data-validator
-
-#2. Install Dependencies
-bash
-Copy code
-pip install -r requirements.txt  
-#3. Run the Application
-bash
-Copy code
-streamlit run app.py
-
-#4. Features in Action
+** Features in Action
 Upload your dataset (limit: 200MB; formats: CSV, XLSX, XLS).
 Adjust the anomaly detection sensitivity slider to refine results.
 View visualizations and correlation heatmaps.
