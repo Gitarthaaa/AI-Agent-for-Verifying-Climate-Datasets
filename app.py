@@ -355,10 +355,10 @@ if page == "Data Upload":
 
 elif page == "Climate Data Download":
     st.title("Climate Data Download")
-    st.write("DOWNLOAD CLIMATE DATA USING THE CDS API")
+    st.write("YOU CAN DOWNLOAD CLIMATE DATA USING THE CDS API")
     
     if not st.session_state.climate_retriever.is_configured:
-        st.error("CDS API INTEGRATION IS IN UDER PROGRESS")
+        st.error("CDS API INTEGRATION IS IN UNDER PROGRESS")
         st.markdown("""
     
         """)
