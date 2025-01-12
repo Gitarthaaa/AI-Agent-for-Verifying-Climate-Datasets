@@ -35,12 +35,6 @@ class ClimateDataRetriever:
         """
         if not self.is_configured:
             raise Exception(
-                "CDS API is not properly configured. Please set up your API key in ~/.cdsapirc\n"
-                "1. Go to https://cds.climate.copernicus.eu/\n"
-                "2. Create an account or log in\n"
-                "3. Go to your profile page\n"
-                "4. Copy your API key\n"
-                "5. Edit ~/.cdsapirc and replace YOUR-API-KEY-HERE with your actual key"
             )
             
         try:
